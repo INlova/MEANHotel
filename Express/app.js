@@ -6,12 +6,14 @@ var path = require('path');
 // Setting global app variables. In this case it's the port
 app.set('port', 3000);
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 // GET request for root
-app.get('/', function(req, res){
-    res
-    .status(200)
-    .sendFile(path.join(__dirname, 'public', 'index.html'));
-});
+// app.get('/', function(req, res){
+//     res
+//     .status(200)
+//     .sendFile(path.join(__dirname, 'public', 'index.html'));
+// });
 
 // GET request for /JSON
 app.get('/json', function(req, res){
