@@ -13,6 +13,6 @@
     * All packages are stored in package.json anyway.
 
 # Scripts
-* Generally a script can be used to run certian parts of the application.
+* Generally a script can be used to run certain parts of the application.
 * The usual practice is to create a "start" script in package.json, and give it the value of "node app.js"
     * This will essentially start the application, and give you all sorts of sweet details and useful developer tools as well!
