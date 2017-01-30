@@ -6,14 +6,13 @@ var path = require('path');
 // Setting global app variables. In this case it's the port
 app.set('port', 3000);
 
+// app.use - uses middleware before route response is carried out.
+// Logging - has to be placed above express.static, so that you're logging EVERY single request that comes in.
+app.use(function(req, res, next){
+    console.log(req.method, req.url);
+    next();
+});
 app.use(express.static(path.join(__dirname, 'public')));
-
-// GET request for root
-// app.get('/', function(req, res){
-//     res
-//     .status(200)
-//     .sendFile(path.join(__dirname, 'public', 'index.html'));
-// });
 
 // GET request for /JSON
 app.get('/json', function(req, res){
