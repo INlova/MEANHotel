@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 var path = require('path');
 
-var routes = require('./routes');
+var routes = require('./api/routes');
 
 // Setting global app variables. In this case it's the port
 app.set('port', 3000);
