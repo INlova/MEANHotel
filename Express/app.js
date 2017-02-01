@@ -1,5 +1,5 @@
 // Require and instantiate express application
-require('./api/data/dbConnection.js').open();
+require('./api/data/db.js')
 var express = require('express');
 var app = express();
 var path = require('path');

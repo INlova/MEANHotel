@@ -1,5 +1,5 @@
 var MongoClient = require('mongodb').MongoClient
-var dburl = 'mongodb://localhost:3000/swan';
+var dburl = '';
 
 var _connection = null;
 
