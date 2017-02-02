@@ -6,7 +6,7 @@ var reviewSchema = new mongoose.Schema({
         type : String, 
         required : true
     },
-    stars : {
+    rating : {
         type : Number,
         min : 0,
         max : 5, 
