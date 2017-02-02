@@ -83,7 +83,7 @@ module.exports.reviewsAddOne = function(req, res) {
             } else if (!doc) {
                 response.status = 404;
                 response.message = {
-                    "message" : "Hotel ID not found "  
+                    "message" : "Hotel ID not found"  
                 };
             } 
 
@@ -96,5 +96,11 @@ module.exports.reviewsAddOne = function(req, res) {
             }
 
         });
+
+};
+
+
+module.exports.reviewsUpdateOne = function(req, res) {
+
 
 };
