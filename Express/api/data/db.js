@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var dburl = 'mongodb://administrator:test123@ds163698.mlab.com:63698/swan';
+var dburl = '';
 
 mongoose.connect(dburl);
 
