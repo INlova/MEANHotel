@@ -4,3 +4,6 @@ This repository contains the semi-finished hotel listing site, from Full Stack T
 
 This course teaches the basic of creating web applications with the MEAN stack. This application could be viewed as a reference for MVC architecture and for general practices with each part of the stack.
 
+Within MEAN Hotel, various amount of packages and concepts were brought up. The following are: 
+
+- Node.js
