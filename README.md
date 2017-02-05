@@ -18,3 +18,10 @@ Within MEAN Hotel, various amount of packages and concepts were used. The follow
 
 To run the application, install the dependencies using `npm install` and run it with either nodemon or `npm start`
 
+# LICENSE
+
+All of the code in this repository is licensed under the MIT license.
+
+Which basically means you can do what ever your heart desires with this source.
+
+See the "LICENSE" file for more information.
