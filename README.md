@@ -16,3 +16,5 @@ Within MEAN Hotel, various amount of packages and concepts were used. The follow
 - bcrypt-nodejs
 - nodemon
 
+To run the application, install the dependencies using `npm install` and run it with either nodemon or `npm start`
+
