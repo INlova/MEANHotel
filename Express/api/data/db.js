@@ -36,5 +36,6 @@ process.once('SIGUSR2', function(){
     });
 });
 
-// Being in Schemas And Models
+// Bring in Models
 require('./hotels.model.js');
+require('./users.model.js');
