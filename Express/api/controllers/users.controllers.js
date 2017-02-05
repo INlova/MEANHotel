@@ -65,6 +65,8 @@ module.exports.login = function(req, res) {
 // Midldleware
 module.exports.authenticate = function(req, res, next) {
 
+    console.log(req.headers.authorization)
+
     var headerExists = req.headers.authorization;
     if (headerExists) {
         var token = req.headers.authorization.split(' ')[1];
