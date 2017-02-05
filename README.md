@@ -10,6 +10,9 @@ Within MEAN Hotel, various amount of packages and concepts were used. The follow
 - Express
 - MongoDB
 - Angular
+- MVC Architecture
+- RESTful API
+- User Authentication
 - body-parser
 - Mongoose
 - jsonwebtoken
